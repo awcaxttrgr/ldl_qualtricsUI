@@ -1,0 +1,33 @@
+<script>
+  Qualtrics.SurveyEngine.addOnload(function()
+  {
+  var plug = document.getElementById("Plug"); //Get the Defined element
+  plug.style.cssText += ';display:none !important;'; //Set the defined element's display style to "none"
+  });
+
+  jQuery(document).on("contextmenu", function(e){
+    e.preventDefault();
+  }, false);
+</script>
+<style type="text/css">
+#Plug {
+display:none !important;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<header><div style="height:64px;width:210px"><img height="64" src="https://raw.githubusercontent.com/awcaxttrgr/ldl_qualtricsUI/main/images/logo_CE_C_svg_small.svg" style="height:64px;width:210px" height="64" width="210" /></div>
+<small>Language Development Lab<br> Department of Linguistics<br>The University of Hong Kong<br>${date://CurrentDate/Y}</small></header>
+&nbsp;
+
+<h1><b>[TITLE]</b></h1>
+&nbsp;
+
+<p>This study is conducted by the Language Development Lab, Department of Linguistics, the University of Hong Kong.</p>
+
+<p>For any enquiries, please contact [NAME] (Email: [EMAIL]).</p>
+
+<footer><small style="width:50%">Approved by the Human Research Ethics Committee (HREC) of the University of Hong Kong (EA210036)</small></footer>
