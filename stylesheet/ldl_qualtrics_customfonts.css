@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=B612&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Voces&display=swap');
 
-div, a, body， input {
+div, a, body, input {
 	font-family: 'Public Sans', 'Voces', 'Noto Sans HK', sans-serif;
 }
 code, pre  {
