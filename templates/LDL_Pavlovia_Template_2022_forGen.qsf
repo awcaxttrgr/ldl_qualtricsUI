@@ -1,0 +1,264 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_b3ibh7NCEohQuSG",
+    "SurveyName": "LDL Template (2022) (Styled)",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_aWsDrdZpestV0Hk",
+    "SurveyBrandID": "hku",
+    "DivisionID": null,
+    "SurveyLanguage": "EN-GB",
+    "SurveyActiveResponseSet": "RS_4UaPabTzMW9JWjY",
+    "SurveyStatus": "Inactive",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2022-04-22 06:15:56",
+    "CreatorID": "UR_aWsDrdZpestV0Hk",
+    "LastModified": "2022-04-22 06:45:44",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "0000-00-00 00:00:00",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "1": {
+          "Type": "Trash",
+          "Description": "Bin/Unused Questions",
+          "ID": "BL_5Azwmbk3jvhPXXo",
+          "BlockElements": []
+        },
+        "2": {
+          "Type": "Standard",
+          "SubType": "",
+          "Description": "title",
+          "ID": "BL_88kjPOFDfCJbSdM",
+          "BlockElements": [
+            {
+              "Type": "Question",
+              "QuestionID": "QID1"
+            }
+          ],
+          "Options": {
+            "BlockLocking": "true",
+            "RandomizeQuestions": "false",
+            "PreviousButton": "",
+            "previousButtonMID": "",
+            "NextButton": "Begin",
+            "nextButtonMID": "",
+            "previousButtonLibraryID": "",
+            "nextButtonLibraryID": "",
+            "BlockPassword": ""
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Flow": [
+          {
+            "ID": "BL_88kjPOFDfCJbSdM",
+            "Type": "Standard",
+            "FlowID": "FL_4"
+          }
+        ],
+        "Properties": {
+          "Count": 6
+        },
+        "FlowID": "FL_1",
+        "Type": "Root"
+      }
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "NT",
+      "PrimaryAttribute": "NT_5ArwHqs9W5wVeui",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Notes": [],
+        "UserStatuses": {
+          "UR_aWsDrdZpestV0Hk": "Expanded"
+        },
+        "ParentID": "QID1",
+        "ID": "NT_5ArwHqs9W5wVeui"
+      }
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "true",
+        "NoIndex": "Yes",
+        "SecureResponseFiles": "true",
+        "SurveyExpiration": "None",
+        "SurveyTermination": "DisplayMessage",
+        "Header": "<script>\n\t\tQualtrics.SurveyEngine.addOnload(function()\n\t\t{\n\t\tvar plug = document.getElementById(\"Plug\"); //Get the Defined element\n\t\tplug.style.cssText += ';display:none !important;'; //Set the defined element's display style to \"none\"\n\t\t});\n\n\t\tjQuery(document).on(\"contextmenu\", function(e){\n\t\t  e.preventDefault();\n\t\t}, false);\n\n\t\t</script>\n<header>\n<div style=\"max-height:72px;width:100%;display:block;\"><img src=\"https://raw.githubusercontent.com/awcaxttrgr/ldl_qualtricsUI/main/images/logo_CE_C_svg_small.svg\" style=\"max-height:72px;width:100%\" width=\"210\" /></div>\n</header>\n",
+        "Footer": "",
+        "ProgressBarDisplay": "None",
+        "PartialData": "+1 month",
+        "ValidationMessage": null,
+        "PreviousButton": " ← ",
+        "NextButton": " → ",
+        "SurveyTitle": "Online study - Language Development Lab, HKU",
+        "SkinLibrary": "hku",
+        "SkinType": "templated",
+        "Skin": {
+          "brandingId": null,
+          "templateId": "*2014",
+          "overrides": {
+            "contrast": 1,
+            "logo": {
+              "height": "0px"
+            }
+          }
+        },
+        "NewScoring": 1,
+        "CustomStyles": {
+          "customCSS": "@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=B612&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Voces&display=swap');\n\ndiv, a, body {\n\tfont-family: 'Public Sans', 'Voces', 'Noto Sans HK', sans-serif;\n\tline-height: 2;\n}\ncode, pre  {\n\tfont-family: 'B612 Mono', 'Voces', 'Noto Sans HK', monospaced;\n}\n\ndiv > p {\n\tmargin-top: 1em;\n\tmargin-bottom: 1em;\n}\nh1, h2, h3, h4, h5, h6, p, small, span, div, code, pre, q, blockquote {\n\tline-height: 1.5;\n}\nh1, h2, h3, h4, h5, h6 {\n\tcolor: #2A94A2;\n}\n\ninput {\n\tfont-family: 'B612', 'Noto Sans HK', sans-serif;\n}\ninput .Skin {\n\tfont-family: 'B612', 'Noto Sans HK', sans-serif;\n}\n\nheader {\n\ttop: 0;\n\twidth: 100%;\n\tbackground-color: #EEEEEE;\n\tpadding:1%;\n\tdisplay:block;\n}\n\n\nfooter {\n\tposition: fixed;\n\tbottom: 0;\n\twidth: 100%;\n}\n\n"
+        },
+        "headerMid": "",
+        "ExternalCSS": "",
+        "EOSMessage": "MS_7UKVCFb7sIBMnZk",
+        "ShowExportTags": "false",
+        "CollectGeoLocation": "false",
+        "SurveyMetaDescription": "Online study conducted by the LDL, Department of Linguistics, HKU",
+        "PasswordProtection": "No",
+        "AnonymizeResponse": "No",
+        "RefererCheck": "No",
+        "BallotBoxStuffingPreventionBehavior": "DisplayMessage",
+        "BallotBoxStuffingPreventionMessage": "MS_80Pm4NS0w4c8DL8",
+        "BallotBoxStuffingPreventionMessageLibrary": "UR_aWsDrdZpestV0Hk",
+        "BallotBoxStuffingPreventionURL": null,
+        "RecaptchaV3": "true",
+        "ConfirmStart": true,
+        "AutoConfirmStart": true,
+        "RelevantID": "true",
+        "RelevantIDLockoutPeriod": "+30 days",
+        "UseCustomSurveyLinkCompletedMessage": "true",
+        "SurveyLinkCompletedMessage": "MS_80Pm4NS0w4c8DL8",
+        "SurveyLinkCompletedMessageLibrary": "UR_aWsDrdZpestV0Hk",
+        "ResponseSummary": "No",
+        "EOSMessageLibrary": "UR_aWsDrdZpestV0Hk",
+        "EOSRedirectURL": null,
+        "EmailThankYou": "true",
+        "ThankYouEmailMessageLibrary": "UR_aWsDrdZpestV0Hk",
+        "ThankYouEmailMessage": "MS_eaCd2jVPJpN1sW2",
+        "ValidateMessage": "false",
+        "ValidationMessageLibrary": null,
+        "InactiveSurvey": "DisplayMessage",
+        "PartialDeletion": null,
+        "PartialDataCloseAfter": "LastActivity",
+        "InactiveMessageLibrary": "UR_aWsDrdZpestV0Hk",
+        "InactiveMessage": "MS_bpVVmQBZMT3RFKm",
+        "AvailableLanguages": {
+          "EN-GB": []
+        },
+        "nextButtonLid": "",
+        "nextButtonMid": ""
+      }
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [],
+        "ScoringCategoryGroups": [],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": 0,
+        "ScoringSummaryAfterSurvey": 0,
+        "DefaultScoringCategory": null,
+        "AutoScoringCategory": null
+      }
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CORE",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "MobileCompatible": true,
+        "ID": "Survey Statistics"
+      }
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "3",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_4UaPabTzMW9JWjY",
+      "SecondaryAttribute": "Default Response Set",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_b3ibh7NCEohQuSG",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID1",
+      "SecondaryAttribute": "Department of LinguisticsLanguage Development Lab [TITLE]   This study is conducted by the Langua..",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "QuestionText": "<div style=\"font-weight:normal;text-align:center;margin: 0.5em;line-height: 1.15;display:block;\"><small>Department of Linguistics</small><br><span>Language Development Lab</span></div>\n\n<h1 style=\"text-align:center\"><b>[TITLE]</b></h1>\n&nbsp;\n\n<p>This study is conducted by the Language Development Lab, Department of Linguistics.</p>\n\n<p>For any enquiries, please contact [NAME] (Email: [EMAIL]).</p><small>Approved by the Human Research Ethics Committee (HREC) of the University of Hong Kong ([HREC CODE])</small>",
+        "DefaultChoices": false,
+        "DataExportTag": "titleStandard",
+        "QuestionType": "DB",
+        "Selector": "TB",
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText"
+        },
+        "QuestionDescription": "Department of LinguisticsLanguage Development Lab [TITLE]   This study is conducted by the Langua...",
+        "ChoiceOrder": [],
+        "Validation": {
+          "Settings": {
+            "Type": "None"
+          }
+        },
+        "GradingData": [],
+        "Language": [],
+        "NextChoiceId": 4,
+        "NextAnswerId": 1,
+        "QuestionID": "QID1",
+        "DataVisibility": {
+          "Private": false,
+          "Hidden": false
+        }
+      }
+    }
+  ]
+}

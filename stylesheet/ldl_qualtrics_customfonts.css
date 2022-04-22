@@ -2,7 +2,7 @@
 
 div, a, body {
 	font-family: 'Public Sans', 'Voces', 'Noto Sans HK', sans-serif;
-	line-height: 2;
+	line-height: 1.1;
 }
 code, pre  {
 	font-family: 'B612 Mono', 'Voces', 'Noto Sans HK', monospaced;
@@ -13,17 +13,15 @@ div > p {
 	margin-bottom: 1em;
 }
 h1, h2, h3, h4, h5, h6, p, small, span, div, code, pre, q, blockquote {
-	line-height: 1.5;
+	line-height: 1.1;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #2A94A2;
 }
 
 input {
-	font-family: 'B612', 'Noto Sans HK', sans-serif;
-}
-input .Skin {
-	font-family: 'B612', 'Noto Sans HK', sans-serif;
+	font-family: 'B612', 'Noto Sans HK', sans-serif !important;
+	text-transform: none;
 }
 
 header {
