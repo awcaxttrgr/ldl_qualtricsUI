@@ -1,0 +1,73 @@
+<script>
+		Qualtrics.SurveyEngine.addOnload(function()
+		{
+		var plug = document.getElementById("Plug"); //Get the Defined element
+		plug.style.cssText += ';display:none !important;'; //Set the defined element's display style to "none"
+		});
+
+		jQuery(document).on("contextmenu", function(e){
+		  e.preventDefault();
+		}, false);
+
+		</script>
+<style type="text/css">
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=B612&display=swap');
+
+
+body {
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif;
+	line-height: 2;
+}
+
+input {
+	font-family: 'B612', 'Noto Sans HK', sans-serif;	
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+	width: 100%;
+  }
+	.ldltext {
+	text-align: left;
+	}
+}
+
+
+.ldltext {
+	text-align: right;
+	color: #6EC1E4;
+	font-weight: bold;
+}
+
+.hkuname {
+font-family:'Times New Roman',serif;
+text-transform: uppercase;
+text-align:left;
+font-weight:bold;
+color: #FFFFFF;
+font-size:12pt;
+margin:0.5em
+}
+</style>
+<div class="row">
+<div class="column"><img height="64" src="https://hku.au1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_2mztouvm1OyR5Hw" style="height:64px;vertical-align:middle" /> <span class="hkuname">Universiteit van Hongkong</span></div>
+
+<div class="column">
+<div class="ldltext">Language Development Lab<br />
+De afdeling Taalwetenschap</div>
+</div>
+</div>

@@ -1,0 +1,72 @@
+<script>
+		Qualtrics.SurveyEngine.addOnload(function()
+		{
+		var plug = document.getElementById("Plug"); //Get the Defined element
+		plug.style.cssText += ';display:none !important;'; //Set the defined element's display style to "none"
+		});
+
+		jQuery(document).on("contextmenu", function(e){
+		  e.preventDefault();
+		}, false);
+
+		</script>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+KR:wght@600&family=B612&display=swap');
+
+
+body {
+	font-family: 'Public Sans', 'Noto Sans KR', sans-serif;
+	line-height: 2;
+}
+
+input {
+	font-family: 'B612', 'Noto Sans KR', sans-serif;	
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+	width: 100%;
+  }
+	.ldltext {
+	text-align: left;
+	}
+}
+
+.ldltext {
+	margin: 0.5em;
+	text-align: right;
+	color: #2A94A2;
+	font-weight: bold;
+	line-height: 1.15;
+}
+.hkuname {
+font-family:'Times New Roman','Noto Serif KR',serif;
+text-transform: uppercase;
+text-align:left;
+font-weight:bold;
+color: #000000;
+font-size:14pt;
+margin:15px;
+letter-spacing:1em
+}
+</style>
+<div class="row">
+<div class="column"><img height="64" src="https://hku.au1.qualtrics.com/CP/Graphic.php?IM=IM_ePwZ1gRgSASjCrs" style="height:64px;vertical-align:middle" /> <span class="hkuname">홍콩대학</span></div>
+
+<div class="column">
+<div class="ldltext">언어학과<br />
+언어발전실험실</div>
+</div>
+</div>

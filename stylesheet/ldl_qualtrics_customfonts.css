@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=B612&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+div {
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif;
+}
+code, pre  {
+	font-family: 'B612 Mono', 'Noto Sans HK', monospaced;
+}
+
+div > p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+h1, h2, h3, h4, h5, h6, p, small, span, div, code, pre, q, blockquote {
+	line-height: 1.5;
+}
+
+input .Skin {
+	font-family: 'B612', 'Noto Sans HK', sans-serif;	
+}
+
+#Plug {
+	display:none !important
+}

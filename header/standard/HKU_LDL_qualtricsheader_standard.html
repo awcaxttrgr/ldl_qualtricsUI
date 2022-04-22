@@ -1,0 +1,69 @@
+<script>
+		Qualtrics.SurveyEngine.addOnload(function()
+		{
+		var plug = document.getElementById("Plug"); //Get the Defined element
+		plug.style.cssText += ';display:none !important;'; //Set the defined element's display style to "none"
+		});
+
+		jQuery(document).on("contextmenu", function(e){
+		  e.preventDefault();
+		}, false);
+
+		</script>
+<style type="text/css">
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=B612&display=swap');
+
+
+body {
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif;
+	line-height: 2;
+}
+
+input {
+	font-family: 'B612', 'Noto Sans HK', sans-serif;	
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+	width: 100%;
+  }
+	.ldltext {
+	text-align: left;
+	}
+}
+
+.ldltext {
+	margin: 0.5em;
+	text-align: right;
+	color: #2A94A2;
+	font-weight: bold;
+	line-height: 1.15;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+</style>
+<div class="row">
+<div class="column"><img height="64" src="https://hku.au1.qualtrics.com/CP/Graphic.php?IM=IM_cvSqjUOSsOQAFTM" style="height:64px" /></div>
+
+<div class="column">
+<div class="ldltext">Language Development Lab<br />
+Department of Linguistics</div>
+</div>
+</div>
