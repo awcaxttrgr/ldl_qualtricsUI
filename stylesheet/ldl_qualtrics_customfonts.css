@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=B612&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Voces&display=swap');
 
-div, a, body, input {
+div, a, body {
 	font-family: 'Public Sans', 'Voces', 'Noto Sans HK', sans-serif;
+	line-height: 2;
 }
 code, pre  {
 	font-family: 'B612 Mono', 'Voces', 'Noto Sans HK', monospaced;
@@ -14,13 +15,29 @@ div > p {
 h1, h2, h3, h4, h5, h6, p, small, span, div, code, pre, q, blockquote {
 	line-height: 1.5;
 }
-
-input .Skin {
-	font-family: 'B612', 'Noto Sans HK', sans-serif;	
+h1, h2, h3, h4, h5, h6 {
+	color: #2A94A2;
 }
+
+input {
+	font-family: 'B612', 'Noto Sans HK', sans-serif;
+}
+input .Skin {
+	font-family: 'B612', 'Noto Sans HK', sans-serif;
+}
+
+header {
+	top: 0;
+	width: 100%;
+	background-color: #EEEEEE;
+	padding:1%;
+	display:block;
+}
+
 
 footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 }
+
