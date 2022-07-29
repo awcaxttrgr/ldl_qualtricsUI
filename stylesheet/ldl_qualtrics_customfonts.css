@@ -27,7 +27,7 @@ input {
 header {
 	top: 0;
 	width: 100%;
-	background-color: #EEEEEE;
+	/* background-color: #EEEEEE; */
 	padding:1%;
 	display:block;
 }
