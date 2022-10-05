@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+HK:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#calendarTitle {
+    font-weight: bold;
+	font-family: 'Noto Sans', 'Noto Sans HK', sans-serif;
+}
+
+.chip dt, .te-tm, .cloc, .cc {
+	font-family: 'B612', 'Noto Sans HK', sans-serif !important;
+}
+
+ .calendar-container, .wk-sideevents {
+	font-family: 'Noto Sans', 'Noto Sans HK', sans-serif !important;
+}
