@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2A94A2;
 }
 
-input {
+input, button {
 	font-family: 'B612', 'Noto Sans HK', sans-serif !important;
 	text-transform: none;
 }
@@ -38,4 +38,3 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
-
