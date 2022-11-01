@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+HK:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+span#calendarTitle {
+    font-weight: bold;
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif;
+}
+
+
+.chip, dt, .te-tm, .cloc, .cc, span.evt-lk, span.ctdiv, .chip-caption, span.te-t, .rb-ni {
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif !important;
+}
+
+.event-title, .calendar-container, .wk-sideevents, span.te-s {
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif !important;
+}
+
+#footer1 > tbody > tr > td {
+	display:none;
+}
+
+.wk-daylinkm, .mv-dayname, .te-t {
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif !important;
+}
+
+
+span.evt-lk {
+	font-size: larger;
+}
+
+span.te-t {
+	font-size: large;
+}
+
+.chip-caption {
+	font-size: small;
+	padding: 2.5px;
+}
+
+.mv-dayname, .date-label {
+	font-size: 1 rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.cloc {
+	font-size: xx-small;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.wk-scrolltimedevents {
+	font-weight: bold;
+	font-size: x-small;
+}
+
+.rb-n {
+	font-size: 0.75rem;
+	padding: 2.5px;
+}
+
+.st-dtitle {
+	font-size: 1.1rem;
+	padding:5px;
+	font-weight: 600;
+}
+
+.rb-ni{
+	overflow-wrap: break-word;
+}
+
+.te, .rb-n {
+	overflow: visible;
+	white-space: pre-line;
+}
+
+ .event-title {
+ 	font-size: 1rem;
+ 	padding: 2.5px;
+ }
+ 
+.scrollbox {
+    overflow: hidden;
+}
+
+#scrolltimedevents1 {
+    overflow: hidden;
+	width: 98.75%;
+}
+
+
+.scrollbox>div, .view-container {
+	scrollbar-width: none !important;
+}
+ 
+ 
+span[style="color: #691426;"]{
+	background-color: #DD0000 !important;
+	font-weight: 600 !important;
+	color: white !important;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+}
+ 
+span[style="color: #125A12;"]{
+	font-style: italic;
+}
+
+div[style="border:1px solid #691426; color:;background-color:#B5515D;"]{
+	background-color:#DD0000;
+	font-weight: 600 !important;
+	font-style: italic;
+	border: 0;
+	text-align: center;
+}
