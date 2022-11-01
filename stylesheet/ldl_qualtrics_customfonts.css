@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=B612&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Voces&display=swap');
 
 div, a, body {
 	font-family: 'Public Sans', 'Voces', 'Noto Sans HK', sans-serif;
 	line-height: 1.1;
 }
 code, pre  {
-	font-family: 'B612 Mono', 'Voces', 'Noto Sans HK', monospaced;
+	font-family: 'Source Code Pro', 'Voces', 'Noto Sans HK', monospaced;
+font-variant-numeric: slashed-zero;
 }
 
 div > p {
@@ -19,9 +20,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2A94A2;
 }
 
-input {
-	font-family: 'B612', 'Noto Sans HK', sans-serif !important;
+input, button, select {
+	font-family: 'Public Sans', 'Noto Sans HK', sans-serif !important;
 	text-transform: none;
+	font-variant-numeric: tabular-nums;
 }
 
 header {
@@ -38,4 +40,3 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
-
