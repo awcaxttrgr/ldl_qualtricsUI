@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Noto+Sans+HK:wght@100;300;400;500;700;900&family=Noto+Serif+HK:wght@200;300;400;500;600;700;800;900&family=Voces&display=swap');
+
 
 div, a, body {
-	font-family: 'Public Sans', 'Voces', 'Noto Sans HK', sans-serif;
+	font-family: 'Public Sans', 'Voces', 'Noto Sans HK','Noto Sans SC', sans-serif;
 	line-height: 1.1;
 }
 code, pre  {
-	font-family: 'Source Code Pro', 'Voces', 'Noto Sans HK', monospaced;
+	font-family: 'JetBrains Mono', 'Voces', 'Noto Sans HK','Noto Sans SC', monospaced;
 font-variant-numeric: slashed-zero;
 }
 
@@ -39,4 +40,68 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+}
+
+button {
+	padding: 1rem;
+    border: none;
+    border-radius: 3px;
+	background-color: #007ac0;
+color: white !important;
+}
+
+button:hover {
+background-color: #009AF3;
+}
+
+dialog {
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 1rem;
+	overflow: none;
+}
+dialog > div:first-of-type {
+	overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+	dialog {
+		max-width: 720px;
+		max-height: 640px;
+		width: 75%;
+		height: 75%;
+	}
+	dialog > div:first-of-type {
+		overflow: auto;
+		height:80%;
+	}
+}
+
+dialog > h3:first-of-type {
+	text-align:center;
+	padding:0.5rem;
+}
+
+
+dialog p {
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+dialog div.modalAction {
+    text-align:center;
+	padding: 0.25rem;
+}
+
+del {
+	text-decoration: line-through;
+	color: gray;
+}
+
+#Plug a[href^="https://www.qualtrics.com/powered-by-qualtrics"] {
+    display: none !important;
 }
