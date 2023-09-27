@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+HK:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Voces&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+HK:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+HK:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Voces&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 div,
@@ -7,6 +6,10 @@ a,
 body {
 	font-family: 'Atkinson Hyperlegible', 'Voces', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
 	line-height: 1.5;
+}
+
+.serif p {
+font-family: 'Charis SIL', Georgia, Times, "Times New Roman", serif;
 }
 
 code,
@@ -46,10 +49,6 @@ h6 {
 	color: #5b794e;
 }
 
-.serif p {
-	font-family: 'Charis SIL', Georgia, Times, "Times New Roman", 'Noto Serif HK', 'Noto Serif SC', serif;
-}
-
 input,
 button,
 select {
@@ -83,6 +82,10 @@ button {
 
 button:hover {
 	background-color: #519fdb;
+}
+
+button:active {
+	background-color: #36709c;
 }
 
 dialog {
@@ -135,9 +138,20 @@ del {
 	color: gray;
 }
 
-#Plug a[href^="https://www.qualtrics.com/powered-by-qualtrics"] {
+body .Skin #Plug a[href^="https://www.qualtrics.com/powered-by-qualtrics"], #app > div.plug-container {
 	display: none !important;
 }
+
+
+/** hide recaptcha **/
+.JFEScope .RecaptchaV3Notice {
+    font-size: 0px !important;
+    display: none !important;
+    }
+.RecaptchaV3Notice {
+    font-size: 0px !important;
+    display: none !important;
+    }
 
 /**
 VIDEO SELECTION STYLES
@@ -155,7 +169,7 @@ span.LabelWrapper > label {
 	padding: 0 !important;
 }
  **/
-
+ 
 video {
 	width: 100%;
 	height: auto;
@@ -185,22 +199,3 @@ div.vidContainer,
 div.PageErrorDialog.RequestResponse>div.ErrorButtons>button {
 	color: black;
 }
-
-
-
-/**
-
-REMOVE LEFT RIGHT MARGINS
-
-.Skin, .SkinInner {
-width: 95% !important;
-max-width: 95% !important;
-}
-
-.QuestionOuter,  .QuestionBody, .ChoiceStructure {
-margin: unset !important;
-padding: unset !important;
-width: 100% !important;
-max-width: 100% !important;
-}
-**/

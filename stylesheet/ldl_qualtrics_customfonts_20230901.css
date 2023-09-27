@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Noto+Sans+HK:wght@100;300;400;500;700;900&family=Noto+Serif+HK:wght@200;300;400;500;600;700;800;900&family=Voces&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+HK:wght@400;700&family=Noto+Serif+HK:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Victor+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Voces&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/chiron-sung-hk-webfont@1.0.10/css/vf.min.css');
 
 div,
 a,
@@ -10,7 +10,7 @@ body {
 
 code,
 pre {
-	font-family: 'JetBrains Mono', 'Voces', 'Noto Sans HK', 'Noto Sans SC', monospaced;
+	font-family: 'Victor Mono', 'Voces', 'Noto Sans HK', 'Noto Sans SC', monospaced;
 	font-variant-numeric: slashed-zero;
 }
 
@@ -45,10 +45,16 @@ h6 {
 	color: #2A94A2;
 }
 
+.serif p,
+.serif ul,
+.serif ol {
+	font-family: 'Charis SIL', Georgia, Times, 'Times New Roman', 'Noto Serif HK', 'Noto Serif SC', serif;
+}
+
 input,
 button,
 select {
-	font-family: 'Public Sans', 'Noto Sans HK', sans-serif !important;
+	font-family: 'Public Sans', 'Noto Sans HK', 'Noto Sans SC', sans-serif !important;
 	text-transform: none;
 	font-variant-numeric: tabular-nums;
 }
@@ -150,7 +156,7 @@ span.LabelWrapper > label {
 	padding: 0 !important;
 }
  **/
- 
+
 video {
 	width: 100%;
 	height: auto;
