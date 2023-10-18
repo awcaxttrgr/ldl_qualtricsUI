@@ -9,7 +9,7 @@ body {
 }
 
 .serif p {
-font-family: 'Charis SIL', Georgia, Times, "Times New Roman", serif;
+	font-family: 'Charis SIL', Georgia, Times, "Times New Roman", serif;
 }
 
 code,
@@ -138,20 +138,23 @@ del {
 	color: gray;
 }
 
-body .Skin #Plug a[href^="https://www.qualtrics.com/powered-by-qualtrics"], #app > div.plug-container {
+body .Skin #plug a[href^="https://www.qualtrics.com/powered-by-qualtrics"],
+#app>div.plug-container,
+#plug {
 	display: none !important;
 }
 
 
 /** hide recaptcha **/
 .JFEScope .RecaptchaV3Notice {
-    font-size: 0px !important;
-    display: none !important;
-    }
+	font-size: 0px !important;
+	display: none !important;
+}
+
 .RecaptchaV3Notice {
-    font-size: 0px !important;
-    display: none !important;
-    }
+	font-size: 0px !important;
+	display: none !important;
+}
 
 /**
 VIDEO SELECTION STYLES
@@ -169,7 +172,7 @@ span.LabelWrapper > label {
 	padding: 0 !important;
 }
  **/
- 
+
 video {
 	width: 100%;
 	height: auto;
