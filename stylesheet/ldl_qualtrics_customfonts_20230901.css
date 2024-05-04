@@ -145,11 +145,11 @@ VIDEO SELECTION STYLES
 */
 
 /** CHOICE WIDTH **/
-li.Selection {
+/* li.Selection {
 	width: 50%;
 	padding: 0;
 	margin: 0;
-}
+} */
 
 /** 
 span.LabelWrapper > label {
