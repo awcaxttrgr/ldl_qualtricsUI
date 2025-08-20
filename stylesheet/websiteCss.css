@@ -3,6 +3,7 @@
 
 By Aaron Chik (Sep 2022)
 Updated Apr 2025
+Updated Aug 2025
 --------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+HK:wght@100;300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Public+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -30,6 +31,83 @@ Updated Apr 2025
 
 /* ------- Layout customized ------- */
 
+/* Font size reset -------------------------*/
+
+
+root {
+	font-size: 16px;
+}
+
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+	font-size: 18px;
+}
+
+
+/*--------
+Do post headings really need to be that big?
+--------*/
+
+
+article.post header div h1.entry-title,
+h2.entry-title {
+    font-size: 3rem;
+}
+
+
+h1,
+.heading-size-1 {
+    font-size: 5rem;
+}
+
+h2,
+.heading-size-2 {
+    font-size: 4rem;
+}
+
+h3,
+.heading-size-3 {
+    font-size: 3.5rem;
+}
+
+h4,
+.heading-size-4 {
+    font-size: 3rem;
+}
+
+h5,
+.heading-size-5 {
+    font-size: 2rem;
+}
+
+h6,
+.heading-size-6 {
+    font-size: 1.5rem;
+}
 
 
 
@@ -354,14 +432,6 @@ h6 {
     font-weight: 600;
 }
 
-/*--------
-Do post headings really need to be that big?
---------*/
-
-article.post header div h1.entry-title,
-h2.entry-title {
-    font-size: 4rem;
-}
 
 /*------------ Custom classes ------------ */
 
