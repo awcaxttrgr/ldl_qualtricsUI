@@ -186,7 +186,9 @@ div.PageErrorDialog.RequestResponse>div.ErrorButtons>button {
 	color: black;
 }
 
-
+#plug {
+	display: none;
+}
 
 /**
 
