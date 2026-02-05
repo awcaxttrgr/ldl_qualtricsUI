@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+HK:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Voces&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+HK:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Noto+Sans+HK:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Voces&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+HK:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap');
 
 
 
 div,
 a,
 body {
-	font-family: 'Atkinson Hyperlegible', 'Voces', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+	font-family: 'Atkinson Hyperlegible Next', 'Voces', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
 	line-height: 1.5;
 }
 
 code,
 pre {
-	font-family: 'JetBrains Mono', 'Voces', 'Noto Sans HK', 'Noto Sans SC', monospaced;
+	font-family: 'Atkinson Hyperlegible Mono', 'Voces', 'Noto Sans HK', 'Noto Sans SC', monospaced;
 	font-variant-numeric: slashed-zero;
 }
 
@@ -53,7 +53,7 @@ h6 {
 input,
 button,
 select {
-	font-family: 'Atkinson Hyperlegible', 'Noto Sans HK', sans-serif !important;
+	font-family: 'Atkinson Hyperlegible Next', 'Noto Sans HK', sans-serif !important;
 	text-transform: none;
 	font-variant-numeric: tabular-nums;
 }
